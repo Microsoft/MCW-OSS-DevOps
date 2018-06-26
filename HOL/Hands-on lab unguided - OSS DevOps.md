@@ -17,6 +17,7 @@ Information in this document, including URL and other Internet Web site referenc
 Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
 The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement of Microsoft of the site or the products contained therein.
+
 © 2018 Microsoft Corporation. All rights reserved.
 
 Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
@@ -31,28 +32,28 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Solution architecture](#solution-architecture)
     - [Requirements](#requirements)
         - [Help References](#help-references)
-    - [Exercise 1: Deploy the Web Application and Database to Azure](#exercise-1-deploy-the-web-application-and-database-to-azure)
-        - [Task 1: Create the MySQL database](#task-1-create-the-mysql-database)
-        - [Task 2: Restore the osTicket database to MySQL PaaS](#task-2-restore-the-osticket-database-to-mysql-paas)
-        - [Task 3: Create the Web App](#task-3-create-the-web-app)
-        - [Task 4: Configure the osTicket Web App](#task-4-configure-the-osticket-web-app)
-        - [Task 5: Configure FTP deployment credentials](#task-5-configure-ftp-deployment-credentials)
-        - [Task 6: Configure a staging slot](#task-6-configure-a-staging-slot)
+    - [Exercise 1: Deploy the Web Application and Database to Azure](#exercise-1--deploy-the-web-application-and-database-to-azure)
+        - [Task 1: Create the MySQL database](#task-1--create-the-mysql-database)
+        - [Task 2: Restore the osTicket database to MySQL PaaS](#task-2--restore-the-osticket-database-to-mysql-paas)
+        - [Task 3: Create the Web App](#task-3--create-the-web-app)
+        - [Task 4: Configure the osTicket Web App](#task-4--configure-the-osticket-web-app)
+        - [Task 5: Configure FTP deployment credentials](#task-5--configure-ftp-deployment-credentials)
+        - [Task 6: Configure a staging slot](#task-6--configure-a-staging-slot)
         - [Summary](#summary)
-    - [Exercise 2: Configure local Git repository](#exercise-2-configure-local-git-repository)
-        - [Task 1: Clone a GitHub repository locally](#task-1-clone-a-github-repository-locally)
-        - [Summary](#summary-1)
+    - [Exercise 2: Configure local Git repository](#exercise-2--configure-local-git-repository)
+        - [Task 1: Clone a GitHub repository locally](#task-1--clone-a-github-repository-locally)
+        - [Summary](#summary)
         - [](#)
-    - [Exercise 3: Configure Git and Jenkins for continuous integration, delivery and deployment](#exercise-3-configure-git-and-jenkins-for-continuous-integration-delivery-and-deployment)
-        - [Task 1: Deploy a Jenkins server in Azure](#task-1-deploy-a-jenkins-server-in-azure)
-        - [Task 2: Post-Deployment configuration of the Jenkins server](#task-2-post-deployment-configuration-of-the-jenkins-server)
-        - [Task 3: Configure Jenkins staging deployment](#task-3-configure-jenkins-staging-deployment)
-        - [Task 4: Configure your GitHub repo to notify Jenkins of changes](#task-4-configure-your-github-repo-to-notify-jenkins-of-changes)
-        - [Task 5: Check in a change to trigger Jenkins job](#task-5-check-in-a-change-to-trigger-jenkins-job)
-        - [Task 6: Manually deploy to production](#task-6-manually-deploy-to-production)
-        - [Summary](#summary-2)
+    - [Exercise 3: Configure Git and Jenkins for continuous integration, delivery and deployment](#exercise-3--configure-git-and-jenkins-for-continuous-integration--delivery-and-deployment)
+        - [Task 1: Deploy a Jenkins server in Azure](#task-1--deploy-a-jenkins-server-in-azure)
+        - [Task 2: Post-Deployment configuration of the Jenkins server](#task-2--post-deployment-configuration-of-the-jenkins-server)
+        - [Task 3: Configure Jenkins staging deployment](#task-3--configure-jenkins-staging-deployment)
+        - [Task 4: Configure your GitHub repo to notify Jenkins of changes](#task-4--configure-your-github-repo-to-notify-jenkins-of-changes)
+        - [Task 5: Check in a change to trigger Jenkins job](#task-5--check-in-a-change-to-trigger-jenkins-job)
+        - [Task 6: Manually deploy to production](#task-6--manually-deploy-to-production)
+        - [Summary](#summary)
     - [After the hands-on lab](#after-the-hands-on-lab)
-        - [Task 1: Delete Resources](#task-1-delete-resources)
+        - [Task 1: Delete Resources](#task-1--delete-resources)
 
 <!-- /TOC -->
 
