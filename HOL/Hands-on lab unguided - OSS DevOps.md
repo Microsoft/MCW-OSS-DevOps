@@ -43,7 +43,6 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Exercise 2: Configure local Git repository](#exercise-2--configure-local-git-repository)
         - [Task 1: Clone a GitHub repository locally](#task-1--clone-a-github-repository-locally)
         - [Summary](#summary)
-        - [](#)
     - [Exercise 3: Configure Git and Jenkins for continuous integration, delivery and deployment](#exercise-3--configure-git-and-jenkins-for-continuous-integration--delivery-and-deployment)
         - [Task 1: Deploy a Jenkins server in Azure](#task-1--deploy-a-jenkins-server-in-azure)
         - [Task 2: Post-Deployment configuration of the Jenkins server](#task-2--post-deployment-configuration-of-the-jenkins-server)
@@ -188,8 +187,6 @@ In this exercise, you will use the forked GitHub repository from the previous ex
 ### Summary
 
 In this exercise, you cloned the previously forked GitHub repository locally, so you can configure your web app.
-
-###  
 
 ## Exercise 3: Configure Git and Jenkins for continuous integration, delivery and deployment
 
